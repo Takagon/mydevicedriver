@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/mydev/mydevicedriver/myled.ko := ld -r  -EL  -maarch64elf  --build-id  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds -o /home/ubuntu/mydev/mydevicedriver/myled.ko /home/ubuntu/mydev/mydevicedriver/myled.o /home/ubuntu/mydev/mydevicedriver/myled.mod.o;  true
