@@ -12,21 +12,21 @@ raspberry pi3B+ を用いてモータードライバ(TA7291P)を２つ制御す�
 
 ## ドライバーのインストール
 
-`` `
+```
 $git clone http://github.com/Takagon/mydevicedriver.git  
 
 $cd mydevicedriver
-`` `
+```
 
 ## ドライバーのビルド
 
-`` `
+```
 $make  
 
 $sudo insmod myled.ko  
 
 $sudo chmod 666 /dev/myled0
-`` `
+```
 
 ## 実行
 ロボットの前進
