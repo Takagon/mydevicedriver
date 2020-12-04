@@ -14,7 +14,6 @@ raspberry pi3B+ を用いてモータードライバ(TA7291P)を２つ制御す�
 
 ```
 $git clone http://github.com/Takagon/mydevicedriver.git  
-
 $cd mydevicedriver
 ```
 
@@ -22,9 +21,7 @@ $cd mydevicedriver
 
 ```
 $make  
-
 $sudo insmod myled.ko  
-
 $sudo chmod 666 /dev/myled0
 ```
 
