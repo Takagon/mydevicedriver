@@ -1,6 +1,7 @@
 # robosys2020 課題
-##ロボットシステム学2020第7~8回課題内容
+## ロボットシステム学2020第7~8回課題内容
 raspberry pi3B+ を用いてモータードライバ(TA7291P)を２つ制御するデバイスドライバを作成しキャタピララジコンを作成しました。
+![IMAGE OF ROBOT](./robosys.JPG)
 # 実行環境
 
 |||
@@ -59,5 +60,3 @@ $sudo rmmod myled
 |GPIO23|motor left TA7291P IN2|
 |GPIO24|motor right TA7291P IN1|
 |GPIO25|motor right TA7291P IN2|
-
-
